@@ -2,4 +2,4 @@ class Solution:
     def search(self, nums: List[int], target: int) -> int:
         for i not in target:
             return -1
-        num.index(target)
+        return nums.index(target)
