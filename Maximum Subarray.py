@@ -1,3 +1,5 @@
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
         cur_sum = 0
         max_sum = float('-inf')
         for i in range (len(nums)):
