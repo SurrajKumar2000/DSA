@@ -8,6 +8,7 @@ class Solution:
             m = (l+r)//2
             w = r - l
             h = min(height[l],height[r])
+            a = w * h
             max_area = max(max_area,a)
             if (height[l]<height[r]):
                 l+=1
