@@ -6,3 +6,4 @@ class Solution:
                 if (nums[i]+nums[j] == target):            #Brute Force Method
                     return [i,j]
         return [ ] 
+
