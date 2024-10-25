@@ -4,5 +4,6 @@ class Solution:
             return True
         if not p or not q or p.val!=q.val:
             return False
+        return ()
         
      
