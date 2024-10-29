@@ -9,7 +9,7 @@ class Solution:
                 sum+= d[s[i+1]]-d[s[i]]
                 i+=2
 
-            else:
+            else: 
               sum+= d[s[i]]
               i+=1
         return sum
